@@ -9,8 +9,7 @@ Ubuntu-20.04+ROS-Noetic
 ## 部署
 
 ```bash
-mkdir towr_ws && cd towr_ws
-mkdir src && cd src
+mkdir -p towr_ws/src && cd towr_ws/src
 git clone https://github.com/ethz-adrl/ifopt.git
 git clone https://github.com/fan-ziqi/towr.git
 git clone https://github.com/fan-ziqi/xpp.git
