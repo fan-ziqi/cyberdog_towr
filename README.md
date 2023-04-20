@@ -1,10 +1,10 @@
 # cyberdog_towr
 
-小米铁蛋towr
+小米铁蛋towr离线规划
 
 ## 环境
 
-Ubuntu-20.04+ROS-Noetic
+测试通过：Ubuntu-20.04+ROS-Noetic
 
 ## 部署
 
@@ -19,3 +19,7 @@ source ./devel/setup.bash
 ```
 
 ## 使用
+
+```bash
+roslaunch towr_ros towr_ros.launch
+```
