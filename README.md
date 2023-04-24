@@ -23,3 +23,13 @@ source ./devel/setup.bash
 ```bash
 roslaunch towr_ros towr_ros.launch
 ```
+
+## 更换求解器
+
+如果你安装了Ipopt求解器，可以接入。在`.bashrc`中写入
+
+```bash
+export IPOPT_DIR=xxx/Ipopt-xxx
+```
+
+在代码中替换`mumps`为`ma27`或`ma57`
