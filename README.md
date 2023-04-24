@@ -33,3 +33,36 @@ export IPOPT_DIR=xxx/Ipopt-xxx
 ```
 
 在代码中替换`mumps`为`ma27`或`ma57`
+
+## 将rosbag存储为csv
+
+先查看bag信息
+
+```bash
+rosbag info xxx.bag
+```
+
+将rosbag存储为csv
+
+```bash
+rostopic echo -b xxx.bag -p /topic_name > xxx.csv
+```
+
+注：xpp_bag的内容：
+
+* base
+  * pose
+    * position (x y z)
+    * orientation (x y z w)
+  * twist
+    * linear (x y z)
+    * angular (x y z)
+  * accel
+    * linear (x y z)
+    * angular (x y z)
+* ee_motion (0 1 2 3)
+  * pos (x y z)
+  * vel (x y z)
+  * acc (x y z)
+* ee_forces (0 1 2 3)  (x y z)
+* ee_contact (0 1 2 3)
