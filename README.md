@@ -9,11 +9,8 @@
 ## 部署
 
 ```bash
-mkdir -p towr_ws/src && cd towr_ws/src
-git clone https://github.com/ethz-adrl/ifopt.git
-git clone https://github.com/fan-ziqi/towr.git
-git clone https://github.com/fan-ziqi/xpp.git
-cd ..
+git clone --recursive https://github.com/fan-ziqi/cyberdog_towr.git
+cd towr_ws
 catkin build
 source ./devel/setup.bash
 ```
@@ -66,3 +63,4 @@ rostopic echo -b xxx.bag -p /topic_name > xxx.csv
   * acc (x y z)
 * ee_forces (0 1 2 3)  (x y z)
 * ee_contact (0 1 2 3)
+

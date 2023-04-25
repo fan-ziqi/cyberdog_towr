@@ -1,0 +1,9 @@
+[submodule "towr_ws/src/ifopt"]
+	path = towr_ws/src/ifopt
+	url = https://github.com/ethz-adrl/ifopt.git
+[submodule "towr_ws/src/towr"]
+	path = towr_ws/src/towr
+	url = https://github.com/fan-ziqi/towr.git
+[submodule "towr_ws/src/xpp"]
+	path = towr_ws/src/xpp
+	url = https://github.com/fan-ziqi/xpp.git
