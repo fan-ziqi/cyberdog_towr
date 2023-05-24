@@ -1,3 +1,4 @@
 *.jpg
 towr_ws/*
 !towr_ws/src
+video/*
