@@ -2,6 +2,10 @@
 
 小米铁蛋towr离线规划
 
+## 参考
+
+论文和视频位于[docs](./docs)中
+
 ## 环境
 
 测试通过：Ubuntu-20.04+ROS-Noetic
