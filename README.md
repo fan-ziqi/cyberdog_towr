@@ -4,7 +4,11 @@
 
 ## 参考
 
-论文和视频位于[docs](./docs)中
+论文位于[docs](./docs)中
+
+介绍视频：[Gait and Trajectory Optimization through Phase-based End-Effector Parameterization](https://www.youtube.com/watch?v=0jE46GqzxMM)
+
+开发教程：[Tutorial: Gait and Trajectory Optimization for Legged Robots](https://www.youtube.com/watch?v=KhWuLvb934g)
 
 ## 环境
 
